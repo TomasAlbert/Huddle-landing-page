@@ -8,8 +8,37 @@
 		<title>Frontend Mentor | Huddle landing page with single introductory section</title>
 	</head>
 	<body>
-		<body class="min-h-screen py-20">
-			<h1>Hello</h1>
+		<body class="text-[white] flex flex-col items-center justify-center min-h-screen bg-HeroPatternDesktop bg-no-repeat bg-center bg-cover bg-Violet">
+			<header class="container px-6 mb-5">
+				<figure>
+					<img src="./images/logo.svg" alt="logo" />
+				</figure>
+			</header>
+			<main class="container px-6 mt-12">
+				<div class="grid items-center grid-cols-1 gap-10 lg:gap-20 lg:grid-cols-2">
+					<figure>
+						<img src="./images/illustration-mockups.svg" alt="illustration" />
+					</figure>
+					<div class="md:max-w-xl">
+						<h1 class="text-2xl text-center font-bold lg:text-left md:text-5xl md:leading-[4rem]">Build The Community Your Fans Will Love</h1>
+						<p class="text-lg my-5 text-center lg:text-left">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discucssion.</p>
+						<button class="shadow-xl block m-auto lg:m-0 lg:mr-auto bg-[white] text-Violet py-3 px-16 rounded-3xl hover:bg-SoftMagenta hover:text-[white] transition-all duration-300">Register</button>
+					</div>
+				</div>
+				<footer class="flex justify-center mt-10 mr-0 lg:justify-end lg:mr-12 xl:mr-16">
+					<div class="flex gap-4">
+						<a href="#" class="rounded-full border border-1 p-3 hover:bg-SoftMagenta hover:border-SoftMagenta transition-all duration-300">
+							<img class="w-5 h-5" src="./images/fb-icon.svg" alt="" />
+						</a>
+						<a href="#" class="rounded-full border border-1 p-3 hover:bg-SoftMagenta hover:border-SoftMagenta transition-all duration-300" target="_blank">
+							<img class="w-5 h-5" src="./images/twitter-icon.svg" alt="" />
+						</a>
+						<a href="#" class="rounded-full border border-1 p-3 hover:bg-SoftMagenta hover:border-SoftMagenta transition-all duration-300" target="_blank">
+							<img class="w-5 h-5" src="./images/ig-icon.svg" alt="" />
+						</a>
+					</div>
+				</footer>
+			</main>
 		</body>
 		<script defer src="./main.js"></script>
 	</body>
